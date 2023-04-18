@@ -2604,3 +2604,28 @@ blockquote footer, blockquote small, blockquote .small {
     font-size: 16px;
   }
 }
+
+.fa-linkedin-in, .fa-facebook, .fa-github, .fa-twitter{
+  transition: transform 0.2s ease;
+  
+}
+
+
+.fa-linkedin-in:hover {
+  color: #0077b5;
+  transform: scale(1.5);
+}
+.fa-facebook:hover {
+  color: #1671E6;
+  transform: scale(1.5);
+}
+.fa-github:hover {
+  color: #000000;
+  transform: scale(1.5);
+}
+
+.fa-twitter:hover {
+  color: #1899E6;
+  transform: scale(1.5);
+}
+
