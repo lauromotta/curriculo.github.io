@@ -11,3 +11,19 @@ $(document).ready(function() {
 
     $(".value.idade").html(idadeEmAnos);
 });
+
+window.onload = function() {
+    const texto = "Lauro Motta";
+    let index = 0;
+    const intervalo = 150;
+
+    function mostrarLetra() {
+      if (index < texto.length) {
+        // document.getElementById("name-texto").innerHTML += texto.charAt(index++);
+        $("#name-texto").append(texto.charAt(index++));
+        setTimeout(mostrarLetra, intervalo);
+      }
+    }
+
+    mostrarLetra();
+  };

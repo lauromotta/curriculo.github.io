@@ -2624,8 +2624,15 @@ blockquote footer, blockquote small, blockquote .small {
   transform: scale(1.5);
 }
 
-.fa-twitter:hover {
-  color: #1899E6;
+.fa-whatsapp:hover {
+  color: #02E676;
   transform: scale(1.5);
 }
+
+/* .fa-twitter:hover {
+  color: #1899E6;
+  transform: scale(1.5);
+} */
+
+
 
