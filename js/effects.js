@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     //Obter a data de nascimento da pessoa
     var dataDeNascimento = new Date('1983-07-17');
@@ -24,6 +23,6 @@ window.onload = function() {
         setTimeout(mostrarLetra, intervalo);
       }
     }
-
     mostrarLetra();
   };
+
